@@ -1,6 +1,6 @@
 
 .section-project{
-    background-image: url(assets/image/backgroundpProjects.jpg.png);
+    background-image: url(../image/backgroundpProjects.jpg.png);
     background-color: white;
     background-repeat: repeat-x;
     background-position-x: 100px;
@@ -51,22 +51,22 @@
 }
 
 .car-1{
-    background-image: url(assets/image/ClickerBackGround.png);
+    background-image: url(../image/ClickerBackGround.png);
 
 }
 
 .car-2{
-    background-image: url(assets/image/Alamo.png);
+    background-image: url(../image/Alamo.png);
 
 }
 
 .car-3{
-    background-image: url(assets/image/ShipMath.png);
+    background-image: url(../image/ShipMath.png);
 
 }
 
 .car-4{
-    background-image: url(assets/image/CombatHelicopter.png);
+    background-image: url(../image/CombatHelicopter.png);
 
 }
 
@@ -126,7 +126,7 @@
 
     white-space: pre-line;
     background: white;
-    width: 260px;
+    width: 240px;
     height: 550px;
     margin: 5px;
     border-radius: 15px;
@@ -176,30 +176,30 @@
 }
 
 .car-jam-1{
-    background-image: url(assets/image/PaleontoJam.png);
+    background-image: url(../image/PaleontoJam.png);
 
 }
 
 .car-jam-2{
-    background-image: url(assets/image/BeeBack.png);
+    background-image: url(../image/BeeBack.png);
 }
 
 .car-jam-3{
-    background-image: url(assets/image/Parasite.png);
+    background-image: url(../image/Parasite.png);
 }
 
 .car-jam-4{
-    background-image: url(assets/image/Lobizon.png);
+    background-image: url(../image/Lobizon.png);
 }
 
 .car-jam-5{
-    background-image: url(assets/image/babies.png);
+    background-image: url(../image/babies.png);
 }
 
 .car-jam-6{
-    background-image: url(assets/image/music.png);
+    background-image: url(../image/music.png);
 }
 
 .car-jam-7{
-    background-image: url(assets/image/InfiniteEnglish.png);
+    background-image: url(../image/InfiniteEnglish.png);
 }
