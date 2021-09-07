@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="stylesheet" href="/assets/css/grid.css">
+    <link rel="stylesheet" href ="assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/estilos.css">
+    <link rel="stylesheet" href="/assets/css/about-me.css">
+    <link rel="stylesheet" href="/assets/css/section-project.css">
+    <link rel="stylesheet" href="/assets/css/skills.css">
+    <link rel="stylesheet" href="/assets/css/section-shader.css">
+
+
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+
+    <script src="https://kit.fontawesome.com/874628a98b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@500&display=swap" rel="stylesheet">
+    
+    <title>David Toranzo</title>
+</head>
+<body>
+    <!--<i class="fas fa-address-card"></i>-->
+    
+    <header>
+        <nav>
+            <div class="row">
+                <img class="logo" src="/assets/image/iconTidiGames.PNG" alt="">
+                <ul class="nav">
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#shader">Shaders</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="home-container">
+            <div class="home-image">
+                <img src="/assets/image/photo-me.jpg" alt="">
+            </div>
+            <div class="home-info">
+                <h1>David Toranzo</h1>
+
+                <h6 class="presentation-me">I'm a computer science student and Unity developer</h2>
+                <br>
+                <a class="btn btn-contact" href="#contact">Contact</a>
+                <a class="btn btn-more" href="https://github.com/david444456" target="_blank">See more</a>
+            </div>
+        </div>
+    </header>
+
+    <video src="/assets/image/CutShaderTerrainVoxel.mp4"  muted loop autoplay id="VideoBackground"></video>
+
+    <section class="section-description" id="about">
+        <div class="row">
+            <h2>About me</h2>
+        </div>
+        <br>
+        <div class="container">
+            <div class="content-card">
+                <p class ="text-center">
+                    I'm David Toranzo. I'm a Unity developer, computer science student and a passionate about videogames.
+                    I started studying C# on my own when I was 16 years old. Since then, I made some games and learned 
+                    more about games and how to produce them. In the last year I learned about new ways of programming 
+                    (TDD, SOLID, design patterns) and I started to work on projects with multidisciplinary teams 
+                    (in jams and small projects).
+                </p>
+            </div>
+            <div class="imgBx">
+                <img src="/assets/image/GamesBackGround.png" alt="">
+            </div>     
+        </div>
+    </section>
+
+    <section class="section-skills">
+        <h2>Programming language</h2>
+        <div class="skills">
+            <div class="section-skills-program skill-1">
+                <h3>C#</h3>
+            </div>
+            <div class="section-skills-program skill-2">
+                <h3>CG/HLSL</h3>
+            </div>
+            <div class="section-skills-program skill-3">
+                <h3>HTML/CSS</h3>
+            </div>
+            <div class="section-skills-program skill-4">
+                <h3>C++</h3>
+            </div>
+        </div>
+        <h2>Tools</h2>
+        <div class="skills">
+            <div class="section-skills-program skill-1">
+                <h3>Unity</h3>
+            </div>
+            <div class="section-skills-program skill-2">
+                <h3>Git/GitHub</h3>
+            </div>
+            <div class="section-skills-program skill-3">
+                <h3>Shader Graph</h3>
+            </div>
+        </div>
+
+        
+    </section>
+
+    <!--projects-->
+    <section class="section-project" id="project">
+        <h2>PROJECTS</h2>
+        <div class="container-project">
+            <div class="card-project">
+                <div class="card-project-image car-1"></div>
+                <div class="card-project-content">
+                        <div><h2>Nilda Esthetic</h2></div>
+                        <p>The main idea of this project was to apply different programming practices (SOLID and TDD), design patterns 
+                            and planning the development of the game, using tools like Trello and Diagrams. 
+                            I plan to finish it at the end of September.</p>
+                        <div><a href="https://github.com/david444456/NildaEstetica" target="_blank">SEE MORE</a></div>
+                </div>
+            </div>
+            <div class="card-project">
+                <div class="card-project-image car-2" ></div>
+                <div class="card-project-content">
+                <h2>Alamo</h2>
+                <p>
+                    This game is my first PC game, which I didn't finish, because I didn't have much control over what 
+                    I really wanted to do, 
+                    and over development times. I learned a lot about time control and planning the goal of the game.</p>
+                <a href="https://david-toranzo.itch.io/alamo" target="_blank">ITCH-IO</a>
+                    </div>
+            </div>
+            <div class="card-project">
+                <div class="card-project-image car-3"></div>
+                <h2>Ship Math</h2>
+                <p>A game to review simple math.
+                    This game started in a jam, I continued with the development to be able to publish it in the Google Play Store.
+                     I learned about GitHub, working in a team, and 2d tools.</p>
+                <a href="https://david-toranzo.itch.io/ship-math" target="_blank">ITCH-IO</a>
+            </div>
+
+            <div class="card-project">
+                <div class="card-project-image car-4"></div>
+                <h2>Combat Helicopter</h2>
+                <p>First project that I completed, first project that I published on Google Play Store. 
+                    I learned a lot about gameplay in general, incorporate ads, levels, and save information.</p>
+                <a href="https://david-toranzo.itch.io/combat-helicopter" target="_blank">ITCH-IO</a>
+            </div>
+        </div>
+    </section>
+
+    <!--game jams-->
+    <section class="section-game-jams">
+        <h2>Game jams</h2>
+        <div class="jams-container">
+            <div class="card-jam">
+                <div class="card-jam-image car-jam-1"></div>
+                    <div><h2>Cretagonia</h2></div>
+                    <p>This game was for a weekend game jam, where the theme 
+                        was to make a game about paleontology. I was the programmer of the project.</p>
+                    <div><a href="https://david-toranzo.itch.io/cretagonia" target="_blank">ITCH.IO</a></div>
+            </div>
+
+            <div class="card-jam">
+                <div class="card-jam-image car-jam-2"></div>
+                <div class="card-project-content">
+                        <div><h2>Bee Hunter</h2></div>
+                        <p>In this project I worked for two weeks, for a game jam at the video game club. I made the shaders, 
+                            incorporated the art, programmed the movement, the interactions, and the AI of the bee.</p>
+                        <div><a href="https://david-toranzo.itch.io/bee-hunter" target="_blank">ITCH.IO</a></div>
+                </div>
+            </div>
+
+            <div class="card-jam">
+                <div class="card-jam-image car-jam-3"></div>
+                <div class="card-project-content">
+                        <div><h2>Parasite</h2></div>
+                        <p>Entry for the GMTK Game Jam 2021, it fits the theme (Joined Together) because you're fate is tied to both the host and the queen parasite.
+
+                            In Parasite, you play as a spore. Collect food and bring it to the queen, but don't touch the host's organs. If they die, you die. 
+                            To win, bring enough food to the queen for her to overpower the host.</p>
+                        <div><a href="https://david-toranzo.itch.io/parasite" target="_blank">ITCH.IO</a></div>
+                </div>
+            </div>
+
+            <div class="card-jam">
+                <div class="card-jam-image car-jam-4"></div>
+                <div class="card-project-content">
+                        <div><h2>Lobizon</h2></div>
+                        <p>En este juego eres el séptimo hijo varón. ¡Eres un lobizón! Por la conocida maldición el presidente será tu padrino...¡pero primero debes llegar a él!
+
+                            Emprenderás un viaje por distintas regiones de la Argentina, conociendo sus costumbres y folklore. Vivirás encuentros con seres mitológicos y conocerás sobre sus historias. 
+                            Viaja por las 5 regiones del territorio argentino y conoce al presidente para pedir su bendición.</p>
+                        <div><a href="https://david-toranzo.itch.io/lobizon-this-is-argentina" target="_blank">ITCH.IO</a></div>
+                </div>
+            </div>
+
+            <div class="card-jam">
+                <div class="card-jam-image car-jam-5"></div>
+                <div class="card-project-content">
+                        <div><h2>Babies please</h2></div>
+                        <p>A game about managing a factory, where the workers are babies, and your goal is to get back to your family.
+
+                            This game was created for an impromptu game, where the theme was a sentence: 
+                            "I bought a baby clown from the Russian terrorist black market".</p>
+                        <div><a href="https://david-toranzo.itch.io/babies-please" target="_blank">ITCH.IO</a></div>
+                </div>
+            </div>
+
+            <div class="card-jam">
+                <div class="card-jam-image car-jam-6"></div>
+                <div class="card-project-content">
+                        <div><h2>The music caveman</h2></div>
+                        <p>A mini-game in which the player must manage to dodge obstacles to reach the end of the level.
+
+                            Story: A primitive caveman comes across an instrument alien to his time and when he plays it, 
+                            he travels to the original time of the instrument. 
+                            and when he plays it, he travels back to the original time of the 
+                            instrument, thus being able to learn about the progress of music.</p>
+                        <div><a href="https://david-toranzo.itch.io/the-music-caveman" target="_blank">ITCH.IO</a></div>
+                </div>
+            </div>
+
+            <div class="card-jam">
+                <div class="card-jam-image car-jam-7"></div>
+                <div class="card-project-content">
+                        <div><h2>Infinite helicopter</h2></div>
+                        <p>Destroy everything in your path, get lives and continue.
+
+                            A new skill game
+                            -Manage your helicopter through the different enemies
+                            -Try your coordination:</p>
+                        <div><a href="https://david-toranzo.itch.io/infinite-helicopter" target="_blank">ITCH.IO</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Shader-->
+    <section class="section-shader" id="shader">
+        <h2>SHADERS</h2>
+        <div class="container-shader">
+            <div class="card-shader">
+                <div class="card-shader-image shader-1">
+                    <iframe width=auto height=auto
+                    src="https://www.youtube.com/embed/PwvKFyaKIbg" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                    gyroscope; picture-in-picture" allowfullscreen id="VideoShader1"></iframe>
+                    </video>
+                </div>
+                <div class="card-shader-content">
+                        <div><h2>Terrain voxel</h2></div>
+                        <p>Shader that paints the terrain, created for the game "Alamo" (not implemented), 
+                            I used cg/hlsl, shader graph and three scripts. 
+                            The basis of how the shader works I copied it from a video, and I modified it to obtain the final result.</p>
+                </div>
+            </div>
+            <div class="card-shader">
+                <div class="card-shader-image shader-2" >
+                    <iframe width=auto height=auto src="https://www.youtube.com/embed/6Y-PfxUkctU" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                    clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="VideoShader1"></iframe>
+                </div>
+                <div class="card-shader-content">
+                <h2>Toon shader</h2>
+                <p>
+                    Toon shader created for the game "Bee Hunter", 
+                    I created it in shader graph. It is incorporated to all the level except the terrain.</p>
+                    </div>
+            </div>
+            <div class="card-shader">
+                <div class="card-shader-image shader-3">
+                    <iframe width=auto height=auto src="https://www.youtube.com/embed/7CycevVtl6s" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; 
+                    autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="VideoShader1"></iframe>
+                </div>
+                <h2>Water</h2>
+                <p>Water shader created for the game "Bee Hunter", I created it in shader graph. It's not transparent.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Section forms-->
+    <!-- <section class="section-form">
+        <div class="row">
+            <h2>Contact</h2>
+
+        </div>
+        <div class="row">
+            <form method="POST" action="#" class="contact-form">
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="name">Name</label>
+
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="name" id="name" placeholder="Name" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="email">Email</label>
+
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="email" id="email" placeholder="Email" required>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="message">Message</label>
+
+                    </div>
+                    <div class="col span-2-of-3">
+                        <textarea name="message" placeholder="Message..."></textarea>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="question">Do you like to receive an email?</label>
+
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="checkbox" name="question" id="question" checked> Yes, I want.
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>&nbsp;</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="submit" value="Send">
+                    </div>
+
+                </div>
+
+            </form>
+        </div>
+    </section> -->
+
+
+    <!--Footer-->
+    <section class="section-img-footer" id="contact">
+        <div class="row">
+            <h2>Hey, thanks for watching :3</h2>
+            <div class="info-contact">
+                <h3>Email: david-toranzo-@hotmail.com</h3>
+            </div>
+        </div>
+    </section>
+
+    <footer >
+        <div class="footer-info">
+            <div class="footer-info-info">
+                <p>Page responsive</p>
+                <p>This page was made by David Toranzo - 2021</p>
+            </div>
+
+            <div class="footer-info-icons">
+                <ul class="social-links">
+                    <li ><a href="https://www.linkedin.com/in/davidtoranzo/" target="_blank"><i class="fab fa-linkedin" style="font-size: 1.5em;"></i></a></li>
+                    <li ><a href="https://www.instagram.com/davidmauriciotoranzo/" target="_blank"><i class="fab fa-instagram" style="font-size:1.5em;"></i></a></li>
+                    <li ><a href="https://david-toranzo.itch.io/" target="_blank"><i class="fab fa-itch-io" style="font-size: 1.5em;"></i></a></li>
+                    <li ><a href="https://github.com/david444456" target="_blank"><i class="fab fa-github" style="font-size: 1.5em;"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+
+    </footer>
+</body>
+</html>
