@@ -1,5 +1,5 @@
 .section-skills{
-    background-image: url(/assets/image/BackGroundWeb.png);
+    background-image: url(assets/image/BackGroundWeb.png);
     background-color: rgb(0, 45, 75);
 
     background-repeat: repeat-x;
@@ -65,7 +65,6 @@
     }
 
     .section-skills{
-        background-image: url(/assets/image/BackGroundWeb.png);
 
         background-color: rgb(0, 45, 75);
         background-repeat: repeat-x;
