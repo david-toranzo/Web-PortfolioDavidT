@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+
+
 /*var*/
 :root{
     --description-color:  rgba(171, 236, 127, 0.966);
@@ -29,6 +31,10 @@
     height: 0;
     visibility: hidden;
 
+}
+
+.main-container{
+    overflow-y: auto;
 }
 
 .row{

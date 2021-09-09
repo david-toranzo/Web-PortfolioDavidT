@@ -133,6 +133,11 @@
     box-shadow: 0 5px 4px rgb(17, 17, 17);
 }
 
+.card-jam ::-webkit-scrollbar
+{
+    display: none;
+}
+
 .card-jam h2{
     font-size: 150%;
     margin-bottom: 10px;
@@ -147,12 +152,6 @@
     height: 0px;
     background-color: rgb(25, 27, 25);
     margin-top: 0px;
-}
-
-::-webkit-scrollbar
-{
-    width: 10px;
-    display: none;
 }
 
 .card-jam p
