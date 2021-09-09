@@ -33,8 +33,15 @@
 
 }
 
-.main-container{
-    overflow-y: auto;
+::-webkit-scrollbar {
+    width: 15px;
+    background: #ffffff;
+
+}
+
+::-webkit-scrollbar-thumb{
+    background: #3ad554;
+    border-radius: 5px;
 }
 
 .row{
