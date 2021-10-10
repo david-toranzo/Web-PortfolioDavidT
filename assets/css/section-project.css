@@ -126,9 +126,10 @@
 
     white-space: pre-line;
     background: white;
-    width: 240px;
+    width: 23%;
     height: 550px;
     margin: 5px;
+    margin-bottom: 30px;
     border-radius: 15px;
     box-shadow: 0 5px 4px rgb(17, 17, 17);
 }
@@ -139,7 +140,7 @@
 }
 
 .card-jam h2{
-    font-size: 150%;
+    font-size: 2em;
     margin-bottom: 10px;
     text-align: center;
     word-spacing: 2px;
@@ -166,12 +167,22 @@
     padding: 5px;
 }
 
+.card-project-content{
+    display: flex;
+    height: 55%;
+}
+
 .card-jam-image{
     background: cornflowerblue;
-    height: 150px;
+    height: 45%;
     margin-bottom: 15px;
     background-size: cover;
     border-radius: 15px 15px 0 0;
+}
+
+.car-jam-0{
+    background-image: url(../image/AliveCover.png);
+
 }
 
 .car-jam-1{
