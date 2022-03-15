@@ -1267,35 +1267,43 @@ footer p {
   border-radius: 15px 15px 0 0;
 }
 
-.car-jam-0 {
-  background-image: url(../image/AliveCover.png);
+.car-jam-9 {
+  background-image: url(../image/backWaste.png);
 }
 
-.car-jam-1 {
-  background-image: url(../image/PaleontoJam.png);
-}
-
-.car-jam-2 {
-  background-image: url(../image/BeeBack.png);
-}
-
-.car-jam-3 {
-  background-image: url(../image/Parasite.png);
-}
-
-.car-jam-4 {
-  background-image: url(../image/Lobizon.png);
-}
-
-.car-jam-5 {
-  background-image: url(../image/babies.png);
-}
-
-.car-jam-6 {
-  background-image: url(../image/music.png);
+.car-jam-8 {
+  background-image: url(../image/DEPILOOP.png);
 }
 
 .car-jam-7 {
+  background-image: url(../image/AliveCover.png);
+}
+
+.car-jam-6 {
+  background-image: url(../image/PaleontoJam.png);
+}
+
+.car-jam-5 {
+  background-image: url(../image/BeeBack.png);
+}
+
+.car-jam-4 {
+  background-image: url(../image/Parasite.png);
+}
+
+.car-jam-3 {
+  background-image: url(../image/Lobizon.png);
+}
+
+.car-jam-2 {
+  background-image: url(../image/babies.png);
+}
+
+.car-jam-1 {
+  background-image: url(../image/music.png);
+}
+
+.car-jam-0 {
   background-image: url(../image/InfiniteEnglish.png);
 }
 
