@@ -5,31 +5,34 @@
 
     <meta name="viewport" content="width=device-width" />
 
+    <link rel=icon href=assets/image/iconTidiGames.PNG sizes="32x32" type="image/png">
+
     <link rel="stylesheet" href="assets/css/grid.css">
-    <link rel="stylesheet" href ="assets/css/normalize.css">
-    <link rel="stylesheet" href="assets/css/estilos.css">
-    <link rel="stylesheet" href="assets/css/about-me.css">
-    <link rel="stylesheet" href="assets/css/section-project.css">
-    <link rel="stylesheet" href="assets/css/skills.css">
-    <link rel="stylesheet" href="assets/css/section-shader.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
 
+    <!-- css sass -->
+    <link rel="stylesheet" href="assets/css/styles.css">
 
+    <!-- fonts and others -->
     <link rel="stylesheet" href="assets/fontawesome/css/all.css">
-
     <script src="https://kit.fontawesome.com/874628a98b.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@500&display=swap" rel="stylesheet">
     
+    <!-- scripts -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
     <title>David Toranzo</title>
 </head>
 <body>
+    <div class="main-container">
     <!--<i class="fas fa-address-card"></i>-->
     
     <header>
         <nav>
             <div class="row">
-                <img class="logo" src="/assets/image/iconTidiGames.PNG" alt="">
+                <img class="logo" src="assets/image/iconTidiGames.PNG" alt="">
                 <ul class="nav">
                     <li><a href="#about">About me</a></li>
                     <li><a href="#project">Project</a></li>
@@ -40,7 +43,7 @@
         </nav>
         <div class="home-container">
             <div class="home-image">
-                <img src="/assets/image/photo-me.jpg" alt="">
+                <img src="assets/image/photo-me.jpg" alt="">
             </div>
             <div class="home-info">
                 <h1>David Toranzo</h1>
@@ -51,9 +54,14 @@
                 <a class="btn btn-more" href="https://github.com/david444456" target="_blank">See more</a>
             </div>
         </div>
+        <a href="#about"><div class="box-arrow">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div></a>
     </header>
 
-    <video src="/assets/image/CutShaderTerrainVoxel.mp4"  muted loop autoplay id="VideoBackground"></video>
+    <video src="assets/image/CutShaderTerrainVoxel.mp4"  muted loop autoplay id="VideoBackground"></video>
 
     <section class="section-description" id="about">
         <div class="row">
@@ -63,11 +71,13 @@
         <div class="container">
             <div class="content-card">
                 <p class ="text-center">
-                    I'm David Toranzo. I'm a Unity developer, computer science student and a passionate about videogames.
-                    I started studying C# on my own when I was 16 years old. Since then, I made some games and learned 
-                    more about games and how to produce them. In the last year I learned about new ways of programming 
-                    (TDD, SOLID, design patterns) and I started to work on projects with multidisciplinary teams 
-                    (in jams and small projects).
+                    I'm an argentinian computer science student and C# programmer, 
+                    I'm a Unity game developer with experience in PC games and mobile games.
+                    I'm a passionate about making fun games and making them with the best
+                     practices to make them scalable.
+
+                    The last years I have been studying new programming practices, design patterns, 
+                    such as MVVM architecture, SOLID and TDD (applying TDD with Clean code).
                 </p>
             </div>
             <div class="imgBx">
@@ -83,13 +93,7 @@
                 <h3>C#</h3>
             </div>
             <div class="section-skills-program skill-2">
-                <h3>CG/HLSL</h3>
-            </div>
-            <div class="section-skills-program skill-3">
                 <h3>HTML/CSS</h3>
-            </div>
-            <div class="section-skills-program skill-4">
-                <h3>C++</h3>
             </div>
         </div>
         <h2>Tools</h2>
@@ -99,9 +103,6 @@
             </div>
             <div class="section-skills-program skill-2">
                 <h3>Git/GitHub</h3>
-            </div>
-            <div class="section-skills-program skill-3">
-                <h3>Shader Graph</h3>
             </div>
         </div>
 
@@ -115,17 +116,17 @@
             <div class="card-project">
                 <div class="card-project-image car-1"></div>
                 <div class="card-project-content">
-                        <div><h2>Nilda Esthetic</h2></div>
+                        <div><h2>Nilda Esthetic - Mobile Game</h2></div>
                         <p>The main idea of this project was to apply different programming practices (SOLID and TDD), design patterns 
                             and planning the development of the game, using tools like Trello and Diagrams. 
-                            I plan to finish it at the end of September.</p>
+                            </p>
                         <div><a href="https://github.com/david444456/NildaEstetica" target="_blank">SEE MORE</a></div>
                 </div>
             </div>
             <div class="card-project">
                 <div class="card-project-image car-2" ></div>
                 <div class="card-project-content">
-                <h2>Alamo</h2>
+                <h2>Alamo - PC Game</h2>
                 <p>
                     This game is my first PC game, which I didn't finish, because I didn't have much control over what 
                     I really wanted to do, 
@@ -135,7 +136,7 @@
             </div>
             <div class="card-project">
                 <div class="card-project-image car-3"></div>
-                <h2>Ship Math</h2>
+                <h2>Ship Math - Mobile Game</h2>
                 <p>A game to review simple math.
                     This game started in a jam, I continued with the development to be able to publish it in the Google Play Store.
                      I learned about GitHub, working in a team, and 2d tools.</p>
@@ -144,7 +145,7 @@
 
             <div class="card-project">
                 <div class="card-project-image car-4"></div>
-                <h2>Combat Helicopter</h2>
+                <h2>Combat Helicopter - Mobile Game</h2>
                 <p>First project that I completed, first project that I published on Google Play Store. 
                     I learned a lot about gameplay in general, incorporate ads, levels, and save information.</p>
                 <a href="https://david-toranzo.itch.io/combat-helicopter" target="_blank">ITCH-IO</a>
@@ -157,15 +158,51 @@
         <h2>Game jams</h2>
         <div class="jams-container">
             <div class="card-jam">
-                <div class="card-jam-image car-jam-1"></div>
+                <div class="card-jam-image car-jam-9"></div>
+                <div class="card-project-content">
+                    <div><h2>Te lo reciclo asi nomás</h2></div>
+                    <p>"Te lo reciclo asi nomás" es un juego sencillo, directo y totalmente disfrutable. 
+                        Parte de resolver un problema es ayudar a la concientiziacion de la gente, y parte 
+                        es tambien convertir al mismo en un tema de interes a los involucrados.
+                    </p>
+                    <div><a href="https://david-toranzo.itch.io/reciclar-ba-joven" target="_blank">ITCH.IO</a></div>
+                </div>
+            </div>
+
+            <div class="card-jam">
+                <div class="card-jam-image car-jam-8"></div>
+                <div class="card-project-content">
+                    <div><h2>Depiloop</h2></div>
+                    <p>It's about magnetic things.
+                    </p>
+                    <div><a href="https://globalgamejam.org/2022/games/depiloop-9" target="_blank">PAGE</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="jams-container">
+            <div class="card-jam">
+                <div class="card-jam-image car-jam-7"></div>
+                <div class="card-project-content">
+                    <div><h2>Alive</h2></div>
+                    <p>Far into the future, humanity's last living descendants are their robot creations in the city of Robotnika.
+                        When a virus infects a robot named: SLAVA, a target is painted on his back! </p>
+                    <div><a href="https://david-toranzo.itch.io/alive" target="_blank">ITCH.IO</a></div>
+                </div>
+            </div>
+
+            <div class="card-jam">
+                <div class="card-jam-image car-jam-6"></div>
+                <div class="card-project-content">
                     <div><h2>Cretagonia</h2></div>
                     <p>This game was for a weekend game jam, where the theme 
                         was to make a game about paleontology. I was the programmer of the project.</p>
                     <div><a href="https://david-toranzo.itch.io/cretagonia" target="_blank">ITCH.IO</a></div>
+            
+                </div>
             </div>
 
             <div class="card-jam">
-                <div class="card-jam-image car-jam-2"></div>
+                <div class="card-jam-image car-jam-5"></div>
                 <div class="card-project-content">
                         <div><h2>Bee Hunter</h2></div>
                         <p>In this project I worked for two weeks, for a game jam at the video game club. I made the shaders, 
@@ -175,7 +212,7 @@
             </div>
 
             <div class="card-jam">
-                <div class="card-jam-image car-jam-3"></div>
+                <div class="card-jam-image car-jam-4"></div>
                 <div class="card-project-content">
                         <div><h2>Parasite</h2></div>
                         <p>Entry for the GMTK Game Jam 2021, it fits the theme (Joined Together) because you're fate is tied to both the host and the queen parasite.
@@ -186,8 +223,11 @@
                 </div>
             </div>
 
+        </div>
+        <div class="jams-container">
+
             <div class="card-jam">
-                <div class="card-jam-image car-jam-4"></div>
+                <div class="card-jam-image car-jam-3"></div>
                 <div class="card-project-content">
                         <div><h2>Lobizon</h2></div>
                         <p>En este juego eres el séptimo hijo varón. ¡Eres un lobizón! Por la conocida maldición el presidente será tu padrino...¡pero primero debes llegar a él!
@@ -199,7 +239,7 @@
             </div>
 
             <div class="card-jam">
-                <div class="card-jam-image car-jam-5"></div>
+                <div class="card-jam-image car-jam-2"></div>
                 <div class="card-project-content">
                         <div><h2>Babies please</h2></div>
                         <p>A game about managing a factory, where the workers are babies, and your goal is to get back to your family.
@@ -211,7 +251,7 @@
             </div>
 
             <div class="card-jam">
-                <div class="card-jam-image car-jam-6"></div>
+                <div class="card-jam-image car-jam-1"></div>
                 <div class="card-project-content">
                         <div><h2>The music caveman</h2></div>
                         <p>A mini-game in which the player must manage to dodge obstacles to reach the end of the level.
@@ -225,7 +265,7 @@
             </div>
 
             <div class="card-jam">
-                <div class="card-jam-image car-jam-7"></div>
+                <div class="card-jam-image car-jam-0"></div>
                 <div class="card-project-content">
                         <div><h2>Infinite helicopter</h2></div>
                         <p>Destroy everything in your path, get lives and continue.
@@ -378,5 +418,11 @@
 
 
     </footer>
+
+    </div>
+
+
+    <!-- scripts -->
+    <script src="/assets/js/animations.js"></script>
 </body>
 </html>

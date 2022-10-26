@@ -2,7 +2,7 @@
 /*About me*/
 
 .section-description{
-    background-image: url(/assets/image/BackGroundStar.png);
+    background-image: url(../image/BackGroundStar.png);
     background-size: 56%;
     overflow: visible;
 
@@ -32,16 +32,18 @@
     
 }
 .container .content-card{
-    width: 650px;
+    flex: 0 1 600px;
     margin-top: 60px;
     margin-right: 40px;
 }
 
 .container .content-card p{
     font-size: 120%;
+    text-align: center;
+    font-display: center;
 }
 
-@media only screen and (max-width:1310px) and (min-width: 767px) {
+@media only screen and (max-width:1310px) {
     .section-description{
         background-size: 80%;
 

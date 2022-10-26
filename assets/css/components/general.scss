@@ -31,6 +31,17 @@
 
 }
 
+::-webkit-scrollbar {
+    width: 15px;
+    background: #ffffff;
+
+}
+
+::-webkit-scrollbar-thumb{
+    background: #3ad554;
+    border-radius: 5px;
+}
+
 .row{
     max-width: 1140px;
     margin: 0 auto;
@@ -129,11 +140,12 @@ h2:after{
 /*Home-Container*/
 header{
     /*background-image: linear-gradient(rgba(0,0,0,0.705), rgba(0,0,0,0.705)), url(../image/background.jpg);*/
+    
     position: relative;
     background-size: cover;
     margin-top: 0%;
     background-position: center;
-    height: 100vh;
+    height: 99.5vh;
     z-index: 10;
 }
 
@@ -274,6 +286,7 @@ input[type = "checkbox"]{
     outline: none;
 }
 
+/*footer*/
 /*image footer */
 
 .section-img-footer{

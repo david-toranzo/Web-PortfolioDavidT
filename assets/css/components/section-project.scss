@@ -1,6 +1,6 @@
 
 .section-project{
-    background-image: url(/assets/image/backgroundpProjects.jpg.png);
+    background-image: url(../image/backgroundpProjects.jpg.png);
     background-color: white;
     background-repeat: repeat-x;
     background-position-x: 100px;
@@ -51,22 +51,22 @@
 }
 
 .car-1{
-    background-image: url(/assets/image/ClickerBackGround.png);
+    background-image: url(../image/ClickerBackGround.png);
 
 }
 
 .car-2{
-    background-image: url(/assets/image/Alamo.png);
+    background-image: url(../image/Alamo.png);
 
 }
 
 .car-3{
-    background-image: url(/assets/image/ShipMath.png);
+    background-image: url(../image/ShipMath.png);
 
 }
 
 .car-4{
-    background-image: url(/assets/image/CombatHelicopter.png);
+    background-image: url(../image/CombatHelicopter.png);
 
 }
 
@@ -126,15 +126,21 @@
 
     white-space: pre-line;
     background: white;
-    width: 260px;
+    width: 23%;
     height: 550px;
     margin: 5px;
+    margin-bottom: 30px;
     border-radius: 15px;
     box-shadow: 0 5px 4px rgb(17, 17, 17);
 }
 
+.card-jam ::-webkit-scrollbar
+{
+    display: none;
+}
+
 .card-jam h2{
-    font-size: 150%;
+    font-size: 2em;
     margin-bottom: 10px;
     text-align: center;
     word-spacing: 2px;
@@ -149,12 +155,6 @@
     margin-top: 0px;
 }
 
-::-webkit-scrollbar
-{
-    width: 10px;
-    display: none;
-}
-
 .card-jam p
 {
     overflow-wrap: normal;
@@ -167,39 +167,55 @@
     padding: 5px;
 }
 
+.card-project-content{
+    display: flex;
+    height: 55%;
+}
+
 .card-jam-image{
     background: cornflowerblue;
-    height: 150px;
+    height: 45%;
     margin-bottom: 15px;
     background-size: cover;
     border-radius: 15px 15px 0 0;
 }
 
-.car-jam-1{
-    background-image: url(/assets/image/PaleontoJam.png);
-
+.car-jam-9{
+    background-image: url(../image/backWaste.png);
 }
 
-.car-jam-2{
-    background-image: url(/assets/image/BeeBack.png);
-}
-
-.car-jam-3{
-    background-image: url(/assets/image/Parasite.png);
-}
-
-.car-jam-4{
-    background-image: url(/assets/image/Lobizon.png);
-}
-
-.car-jam-5{
-    background-image: url(/assets/image/babies.png);
-}
-
-.car-jam-6{
-    background-image: url(/assets/image/music.png);
+.car-jam-8{
+    background-image: url(../image/DEPILOOP.png);
 }
 
 .car-jam-7{
-    background-image: url(/assets/image/InfiniteEnglish.png);
+    background-image: url(../image/AliveCover.png);
+}
+
+.car-jam-6{
+    background-image: url(../image/PaleontoJam.png);
+}
+
+.car-jam-5{
+    background-image: url(../image/BeeBack.png);
+}
+
+.car-jam-4{
+    background-image: url(../image/Parasite.png);
+}
+
+.car-jam-3{
+    background-image: url(../image/Lobizon.png);
+}
+
+.car-jam-2{
+    background-image: url(../image/babies.png);
+}
+
+.car-jam-1{
+    background-image: url(../image/music.png);
+}
+
+.car-jam-0{
+    background-image: url(../image/InfiniteEnglish.png);
 }
