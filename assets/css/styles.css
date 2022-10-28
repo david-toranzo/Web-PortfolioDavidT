@@ -3,7 +3,7 @@
   background-image: url(../image/BackGroundStar.png);
   background-size: 56%;
   overflow: visible;
-  background-color: #002d4b;
+  background-color: #001127;
   position: relative;
   line-height: 200%;
   height: 1080px;
@@ -1411,7 +1411,7 @@ footer p {
 
 .section-skills {
   background-image: url(../image/BackGroundWeb.png);
-  background-color: #002d4b;
+  background-color: #001127;
   background-repeat: repeat-x;
 }
 
