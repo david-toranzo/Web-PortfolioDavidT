@@ -945,6 +945,9 @@ footer p {
   background-size: cover;
   border-radius: 15px 15px 0 0; }
 
+.car-jam-10 {
+  background-image: url(../image/subwayDivision.png); }
+
 .car-jam-9 {
   background-image: url(../image/backWaste.png); }
 
