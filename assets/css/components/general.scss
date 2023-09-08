@@ -361,15 +361,18 @@ footer{
 .fa-linkedin-square,
 .fa-instagram-square,
 .fa-itch-io, 
+.fa-medium,
 .fa-github{
     -webkit-transition:color 0.2s;
     transition: color 0.2s;
-
 }
 
 .fa-linkedin:hover{
     color: turquoise;
+}
 
+.fa-medium:hover{
+    color:rgba(255, 255, 255, 0.705);
 }
 
 .fa-instagram:hover{
