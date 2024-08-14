@@ -1,0 +1,222 @@
+.section-project {
+  background-image: url(../image/backgroundpProjects.jpg.png);
+  background-color: white;
+  background-repeat: repeat-x;
+  background-position-x: 100px;
+  color: white;
+}
+
+.container-project {
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card-project {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: white;
+  width: 600px;
+  margin: 50px;
+  border-radius: 15px;
+  box-shadow: 0 5px 4px rgb(17, 17, 17);
+}
+
+.card-project h2 {
+  font-size: 180%;
+  margin-bottom: 10px;
+  text-align: center;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  padding: 10px;
+}
+
+.card-project h2:after {
+  height: 0px;
+  background-color: rgb(25, 27, 25);
+  margin-top: 0px;
+}
+
+.card-project-image {
+  background: cornflowerblue;
+  height: 360px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.car-1 {
+  background-image: url(../image/ninjachess.png);
+}
+
+.car-2 {
+  background-image: url(../image/tempusVitae.png);
+}
+
+.car-3 {
+  background-image: url(../image/trantorian.png);
+}
+
+.car-4 {
+  background-image: url(../image/AlphaverseCharacter.png);
+}
+
+.card-project-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-project p {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+.card-jam a,
+.card-project a {
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  text-align: center;
+  margin: 20px 50px;
+  text-decoration: none;
+}
+
+.card-jam:hover,
+.card-project:hover {
+  background-color: rgb(54, 54, 54);
+  color: white;
+  cursor: default;
+  transform: scale(1.03);
+  transition: all 0.6s ease;
+}
+
+/*game jams*/
+.section-game-jams {
+  background-color: rgb(0, 137, 108);
+  color: black;
+}
+
+.jams-container {
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card-jam {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  white-space: pre-line;
+  background: white;
+  width: 23%;
+  height: 550px;
+  margin: 5px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 4px rgb(17, 17, 17);
+}
+
+.card-jam ::-webkit-scrollbar {
+  display: none;
+}
+
+.card-jam h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  text-align: center;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  padding: 10px;
+}
+
+.card-jam h2:after {
+  height: 0px;
+  background-color: rgb(25, 27, 25);
+  margin-top: 0px;
+}
+
+.card-jam p {
+  overflow-wrap: normal;
+  font-size: 100%;
+  font-size-adjust: 0.74;
+  overflow: auto;
+  height: 200px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.card-project-content {
+  display: flex;
+  height: 55%;
+}
+
+.card-jam-image {
+  background: cornflowerblue;
+  height: 45%;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.car-jam-13 {
+  background-image: url(../image/ShipMath.png);
+}
+
+.car-jam-12 {
+  background-image: url(../image/CombatHelicopter.png);
+}
+
+.car-jam-11 {
+  background-image: url(../image/ImagePlatformer.png);
+}
+
+.car-jam-10 {
+  background-image: url(../image/subwayDivision.png);
+}
+
+.car-jam-9 {
+  background-image: url(../image/backWaste.png);
+}
+
+.car-jam-8 {
+  background-image: url(../image/DEPILOOP.png);
+}
+
+.car-jam-7 {
+  background-image: url(../image/AliveCover.png);
+}
+
+.car-jam-6 {
+  background-image: url(../image/PaleontoJam.png);
+}
+
+.car-jam-5 {
+  background-image: url(../image/BeeBack.png);
+}
+
+.car-jam-4 {
+  background-image: url(../image/Parasite.png);
+}
+
+.car-jam-3 {
+  background-image: url(../image/Lobizon.png);
+}
+
+.car-jam-2 {
+  background-image: url(../image/babies.png);
+}
+
+.car-jam-1 {
+  background-image: url(../image/music.png);
+}
+
+.car-jam-0 {
+  background-image: url(../image/InfiniteEnglish.png);
+}/*# sourceMappingURL=section-project.css.map */
